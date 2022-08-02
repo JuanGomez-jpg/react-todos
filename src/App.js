@@ -46,15 +46,7 @@ function App() {
   }, [])
 
   const listmarkup = (
-    state.todos.map(todo =>
-      <Card
-        key = {todo.id}
-        title = {todo.title}
-        subtitle = {todo.completed}
-        id = {todo.id}>
-        {todo.title}
-      </Card>
-    )
+    state.todos.map(todo => <Card key={todo.id} title={todo.title}  id = {todo.id} completed={todo.completed} />)
   );
 
   return (

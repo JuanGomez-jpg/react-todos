@@ -1,5 +1,21 @@
-.CardContainer{
-  style={{
-    width: '18rem';
-    }}
+.card{
+  align-items: center;
+  text-align: center;
+  padding: 1px 10px 15px;
+  width: 35%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: 0 auto 10px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.card:hover
+{
+box-shadow: 0 8px 16px 0 rgba(5, 5, 5, 0.5);
+}
+
+.text
+{
+font-weight: bold;
+color: black;
 }
